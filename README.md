@@ -32,7 +32,7 @@ TaskPlanner::planRepeatingTask(function ($task, $currentTick){
 
 This example can run a function every 20 ticks and waits 100 ticks before starting the first run.
 ```php
-TaskPlanner::planRepeatingTask(function ($task, $currentTick){
+TaskPlanner::planRepeatingDelayTask(function ($task, $currentTick){
 
 }, 20, 100);
 ```
